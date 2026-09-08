@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="24765" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24743"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ejericio3" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jimmy Borghs" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v0Q-8A-oxN">
+                                <rect key="frame" x="142" y="55" width="109" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loves to play board games" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LBr-8Y-XxL">
+                                <rect key="frame" x="94.666666666666686" y="101" width="204" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="enjoys snorkeling" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="78N-Gi-kkw">
+                                <rect key="frame" x="130.66666666666666" y="77" width="131.99999999999997" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Learnign Ios" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f9c-PU-fNw">
+                                <rect key="frame" x="150" y="130" width="93" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Luis Alberto Lino Revilla" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S2M-cm-PJ2">
+                                <rect key="frame" x="106" y="159" width="181" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="S2M-cm-PJ2" firstAttribute="top" secondItem="f9c-PU-fNw" secondAttribute="bottom" constant="8" symbolic="YES" id="1J2-N8-3Vb"/>
+                            <constraint firstItem="78N-Gi-kkw" firstAttribute="top" secondItem="v0Q-8A-oxN" secondAttribute="bottom" constant="1" id="3aU-0b-5Sn"/>
+                            <constraint firstItem="v0Q-8A-oxN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3bP-vc-zlu"/>
+                            <constraint firstItem="78N-Gi-kkw" firstAttribute="top" secondItem="v0Q-8A-oxN" secondAttribute="bottom" constant="1" id="70s-hu-F83"/>
+                            <constraint firstItem="S2M-cm-PJ2" firstAttribute="top" secondItem="f9c-PU-fNw" secondAttribute="bottom" constant="8" symbolic="YES" id="Pzr-ei-9h4"/>
+                            <constraint firstItem="f9c-PU-fNw" firstAttribute="top" secondItem="LBr-8Y-XxL" secondAttribute="bottom" constant="8" symbolic="YES" id="V6k-rr-mvo"/>
+                            <constraint firstItem="LBr-8Y-XxL" firstAttribute="top" secondItem="78N-Gi-kkw" secondAttribute="bottom" constant="3" id="VBe-QC-OR3"/>
+                            <constraint firstItem="78N-Gi-kkw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Wpy-ez-xye"/>
+                            <constraint firstItem="f9c-PU-fNw" firstAttribute="top" secondItem="LBr-8Y-XxL" secondAttribute="bottom" constant="8" symbolic="YES" id="klU-yL-tMd"/>
+                            <constraint firstItem="f9c-PU-fNw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lvN-dr-LR7"/>
+                            <constraint firstItem="78N-Gi-kkw" firstAttribute="top" secondItem="v0Q-8A-oxN" secondAttribute="bottom" constant="1" id="pv8-Hg-9Vw"/>
+                            <constraint firstItem="LBr-8Y-XxL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qTH-Kx-sz6"/>
+                            <constraint firstItem="v0Q-8A-oxN" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="55" id="rI6-ia-WRX"/>
+                            <constraint firstItem="LBr-8Y-XxL" firstAttribute="top" secondItem="78N-Gi-kkw" secondAttribute="bottom" constant="3" id="sH0-Gr-xni"/>
+                            <constraint firstItem="S2M-cm-PJ2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xts-BE-pct"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-77" y="80"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
